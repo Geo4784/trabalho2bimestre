@@ -11,17 +11,17 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/marga.webp')}
+          source={require('@/assets/images/fundoinicio.png')}
           style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Bem vinde! 🌼</ThemedText>
+        <ThemedText type="title">Bem vindos!!</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Trabalho 2° Bimestre</ThemedText>
       </ThemedView>
-      <ThemedText>Esse trabalho é um link para todas a redes sociais do aluno(a) que o produziu! </ThemedText>
+      <ThemedText>Esse trabalho é um site mobile com todos os links para todas a redes sociais do aluno(a) que o produziu! </ThemedText>
     </ParallaxScrollView>
   );
 }
